@@ -1,7 +1,27 @@
-.Sidebar{
+/* Define a class for the sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35; /* The sidebar will take up 35% of the available space */
 
-    display: flex;
-    flex-direction: column;
-    flex: 0.35;
+  /* Add some additional styling to make it more appealing */
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
 
+/* If you want to style specific elements inside the sidebar, you can do it like this */
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 5px;
 }
