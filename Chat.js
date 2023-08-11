@@ -10,5 +10,5 @@ function Chat() {
         </div>
   )
 }
-
 export default Chat;
+// defined the class factor 
